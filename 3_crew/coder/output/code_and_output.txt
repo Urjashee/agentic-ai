@@ -1,0 +1,18 @@
+# Python program to calculate the first 10,000 terms of the series
+total = 0
+
+# Calculate the sum of the series
+for i in range(10000):
+    if i % 2 == 0:  # even index, add the term
+        total += 1 / (2 * i + 1)
+    else:           # odd index, subtract the term
+        total -= 1 / (2 * i + 1)
+
+# Multiply the total by 4
+result = total * 4
+
+# Print the final result
+print(result)
+
+Output:
+3.1414926535900345

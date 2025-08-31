@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JupyterPersistentConnectionParameters">
+    <option name="moduleParameters">
+      <map>
+        <entry key="$PROJECT_DIR$/.idea/agents_blank.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="argv" value="notebook --ip=127.0.0.1 --port=8890 --no-browser" />
+              <option name="managed" value="true" />
+              <option name="sdkName" value="" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
